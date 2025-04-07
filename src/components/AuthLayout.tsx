@@ -1,8 +1,8 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import Logo from './Logo';
 import { Link } from 'react-router-dom';
+import RocketAnimation from './RocketAnimation';
 
 interface AuthLayoutProps {
   children: React.ReactNode;
@@ -136,7 +136,6 @@ const AuthLayout = ({
   );
 };
 
-// Simple component to import and use RocketAnimation
 const RocketsScene = () => {
   return (
     <div className="relative w-64 h-64 flex items-center justify-center">

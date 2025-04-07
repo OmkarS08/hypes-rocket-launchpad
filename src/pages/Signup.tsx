@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
-import { toast } from '@/components/ui/sonner';
+import { toast } from '@/utils/toast';
 import AuthLayout from '@/components/AuthLayout';
 import { Eye, EyeOff, UserPlus, Github, Mail, AlertCircle } from 'lucide-react';
 

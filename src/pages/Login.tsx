@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -6,9 +5,9 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
-import { toast } from '@/components/ui/sonner';
+import { toast } from '@/utils/toast';
 import AuthLayout from '@/components/AuthLayout';
-import { Eye, EyeOff, LogIn, ArrowRight, Github, Mail } from 'lucide-react';
+import { Eye, EyeOff, LogIn, Github, Mail } from 'lucide-react';
 
 const Login = () => {
   const navigate = useNavigate();
